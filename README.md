@@ -1,15 +1,16 @@
-# Basic Sample Hardhat Project
+# NFT MARKETPLACE, Decentralised Application (DApp)  
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Tech Stack 
+### - NextJs, Hardhat, Solidity
 
-Try running some of the following tasks:
+## To Run :
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+1. Clone the repo
+2. `npm i`
+3. `npx hardhat node`
+4. Let the hardhat node running, open new terminal,
+    `npx hardhat run scripts/deploy.js --network localhost`
+5. If the contract deployed successfully, it will return the contract address and transaction info in response.
+6. `npm run dev`
+
+Visit [localhost:300](http://localhost:300)
