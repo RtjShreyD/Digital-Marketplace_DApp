@@ -22,3 +22,8 @@ Visit [localhost:300](http://localhost:300)
 3. To resolve the error above, stop the DApp instance, re-deploy the contract and re-run the DApp instance. It will all start fresh.
 4. Now, after starting fresh each time, make sure to re-connect Metamask to localhost:8545 (just click the localhost:8545 from networks drop down, it will sync).
 5. If the 4th step was missed then we could become prey of errors in transaction failure, because the last block number which Metamask remembers is different and because its a fresh chain, the block number was initialised from 0, and only the contract was deployed so depending upon the number of interlinked contracts deployed the block number would be incremented and so will the prev hash be remembered.
+
+#### ToDo :
+1. Test deploy to Matic Testnet Live network.
+2. Edit Frontend.
+3. Deploy Frontend to netlify.
